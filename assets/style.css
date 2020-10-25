@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&family=Quicksand:wght@400;700&display=swap');
+.upper {
+    text-transform: uppercase;
+}
+
+/* ---------------------mengatur layout navigasi----------------------------------- */
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: #e81515;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: #ffff69;
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+    padding: 12px 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* -------------------------------mengatur layout website--------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.box {
+    flex-basis: 25%;
+    flex-grow: 1;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.double {
+    flex-basis: 50%;
+}
+
+.triple {
+    flex-basis: 75%;
+}
+
+.fourble {
+    flex-basis: 100%;
+}
+
+.kirkan {
+    flex-basis: 33.3%;
+}
+
+.tengah {
+    flex-basis: 33.4%;
+}
+
+/* -------------------------------mengatur konten profil--------------------------------- */
+
+.artpro {
+    background-color: #ed4937;
+}
+
+.artpro h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: whitesmoke;
+}
+
+.artpro p {
+    text-align: center;
+    font-family: "Playfair Display", 'Quicksand', sans-serif;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    font-weight: 500;
+    color: white;
+}
+
+.logo {
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+}
+
+/* -------------------------------mengatur konten organisasi--------------------------------- */
+
+.artorg {
+    background-color: #f0e9e9;
+}
+
+.artorg h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #db2b18;
+}
+
+.artorg p {
+    text-align: center;
+    font-family: "Playfair Display", 'Quicksand', sans-serif;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.artorg h2 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #ff7e1c;
+}
+
+.icon {
+    width: 40%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+}
+
+.inti {
+    width: 15%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+/* -------------------------------mengatur konten kegiatan--------------------------------- */
+
+.arttri {
+    background-color: #ed4937;
+}
+
+.artkeg h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: whitesmoke;
+}
+
+.artkeg h2 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+/* -------------------------------mengatur konten aside--------------------------------- */
+
+.bingkai {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 85%;
+    height: 100%;
+    background-color: #f77b0f;
+}
+
+.biodata h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.diri {
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    padding-right: 50px;
+}
+
+/* -------------------------------mengatur konten tabel--------------------------------- */
+
+table th {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+table tr {
+    font-family: "Playfair Display", 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+table {
+    margin: 0 auto;
+}
+
+/* ==================================mengatur tampilan footer=============================== */
+
+footer {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #e81515;
+}
+
+/* ==================================mengatur tampilan slider------------------------------ */
+
+.kegslider {
+    border: 10px solid #efefef;
+    position: relative;
+    overflow: hidden;
+    background: #efefef;
+}
+
+.kegslider {
+    margin: 20px auto;
+    width: 718px;
+    height: 400px;
+}
+
+.dokumentasi img {
+    width: 718px;
+    height: 400px;
+    float: left;
+}
+
+.dokumentasi {
+    position: absolute;
+    width: 300%;
+    /*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: slider;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: slider;
+    -moz-animation-duration: 10s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-name: slider;
+    -o-animation-duration: 10s;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+}
+
+/*saat gambar di hover oleh cursor mouse maka berhenti slide*/
+
+.dokumentasi:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.kegslider:after {
+    font-size: 150px;
+    position: absolute;
+    color: black;
+    -webkit-transition: 1s all ease-in-out;
+    -moz-transition: 1s all ease-in-out;
+    transition: 1s all ease-in-out;
+}
+
+.kegslider:hover:after {
+    color: gainsboro;
+}
+
+@-moz-keyframes slider {
+    0% {
+        left: 0;
+        opacity: 0;
+    }
+    2% {
+        opacity: 1;
+    }
+    20% {
+        left: 0;
+        opacity: 1;
+    }
+    21% {
+        opacity: 0;
+    }
+    24% {
+        opacity: 0;
+    }
+    25% {
+        left: -768px;
+        opacity: 1;
+    }
+    45% {
+        left: -768px;
+        opacity: 1;
+    }
+    46% {
+        opacity: 0;
+    }
+    48% {
+        opacity: 0;
+    }
+    50% {
+        left: -1536px;
+        opacity: 1;
+    }
+    70% {
+        left: -1536px;
+        opacity: 1;
+    }
+    72% {
+        opacity: 0;
+    }
+    74% {
+        opacity: 0;
+    }
+    75% {
+        left: -2304px;
+        opacity: 1;
+    }
+    95% {
+        left: -2304px;
+        opacity: 1;
+    }
+    97% {
+        left: -2304px;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slider {
+    0% {
+        left: 0;
+        opacity: 0;
+    }
+    2% {
+        opacity: 1;
+    }
+    20% {
+        left: 0;
+        opacity: 1;
+    }
+    21% {
+        opacity: 0;
+    }
+    24% {
+        opacity: 0;
+    }
+    25% {
+        left: -768px;
+        opacity: 1;
+    }
+    45% {
+        left: -768px;
+        opacity: 1;
+    }
+    46% {
+        opacity: 0;
+    }
+    48% {
+        opacity: 0;
+    }
+    50% {
+        left: -1536px;
+        opacity: 1;
+    }
+    70% {
+        left: -1536px;
+        opacity: 1;
+    }
+    72% {
+        opacity: 0;
+    }
+    74% {
+        opacity: 0;
+    }
+    75% {
+        left: -2304px;
+        opacity: 1;
+    }
+    95% {
+        left: -2304px;
+        opacity: 1;
+    }
+    97% {
+        left: -2304px;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+        opacity: 0;
+    }
+    2% {
+        opacity: 1;
+    }
+    20% {
+        left: 0;
+        opacity: 1;
+    }
+    21% {
+        opacity: 0;
+    }
+    24% {
+        opacity: 0;
+    }
+    25% {
+        left: -768px;
+        opacity: 1;
+    }
+    45% {
+        left: -768px;
+        opacity: 1;
+    }
+    46% {
+        opacity: 0;
+    }
+    48% {
+        opacity: 0;
+    }
+    50% {
+        left: -1536px;
+        opacity: 1;
+    }
+    70% {
+        left: -1536px;
+        opacity: 1;
+    }
+    72% {
+        opacity: 0;
+    }
+    74% {
+        opacity: 0;
+    }
+    75% {
+        left: -2304px;
+        opacity: 1;
+    }
+    95% {
+        left: -2304px;
+        opacity: 1;
+    }
+    97% {
+        left: -2304px;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 0;
+    }
+}
+
+/* ==================================mengatur tampilan mobile------------------------------ */
+
+@media screen and (max-width: 992px) {
+    #layout, main aside {
+        width: 100%;
+        padding: 0;
+    }
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .box {
+        width: 100%;
+        padding: 10px;
+    }
+    .inti {
+        width: 50%;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: center;
+        margin: 0 auto;
+    }
+    .kegslider {
+        margin: 20px auto;
+        width: 100%;
+    }
+    .dokumentasi img {
+        width: 50%;
+        float: left;
+    }
+}
